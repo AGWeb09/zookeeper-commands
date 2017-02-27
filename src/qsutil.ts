@@ -1,9 +1,6 @@
 import * as _ from 'lodash';
 
 export function array2json(lines, object) {
-  console.log('lines', lines);
-  console.log('object', object);
-
   _.reduce(lines, function (result, item: string) {
     let parts;
 
@@ -18,9 +15,6 @@ export function array2json(lines, object) {
 };
 
 export function array2json2(lines, object) {
-  console.log('lines', lines);
-  console.log('object', object);
-
   _.reduce(lines, function (result, item: string) {
     let parts;
 
@@ -39,9 +33,6 @@ export function array2json2(lines, object) {
 };
 
 export function array2json3(lines, object) {
-  console.log('lines', lines);
-  console.log('object', object);
-
   _.reduce(lines, function (result, item: string) {
     let parts;
 
